@@ -1,0 +1,11 @@
+# Ignora tudo
+*
+
+# Permite a própria pasta aulas
+!aulas/
+
+# Permite os arquivos dentro de aulas
+!aulas/**
+
+# (Opcional) Mantém o .gitignore versionado
+!.gitignore
