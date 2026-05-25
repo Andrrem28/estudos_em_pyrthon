@@ -1,0 +1,25 @@
+{
+  "nome": "Francisco André",
+  "sobrenome": "Martins",
+  "idade": 36,
+  "enderecos": [
+    {
+      "rua": "Rua 1",
+      "numero": 123
+    },
+    {
+      "rua": "Rua 2",
+      "numero": 321
+    }
+  ],
+  "altura": 1.67,
+  "peso": 90,
+  "numero_preferidos": [
+    14,
+    22,
+    50,
+    100
+  ],
+  "dev": true,
+  "nada": null
+}

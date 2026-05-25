@@ -6,3 +6,15 @@ Elas podem receber valores para parâmetros (argumentos)
 e retornar um valor específico.
 Por padrão, funções Python retornam None (nada)
 '''
+
+# def imprimir(a, b, c):
+#     print(a, b, c)
+
+# imprimir('a', 'b', 'c')
+# imprimir('d', 'e', 'f')
+
+
+def saudacao(nome):
+    print(f'Olá, {nome}!')
+
+saudacao('Barquinhos')
