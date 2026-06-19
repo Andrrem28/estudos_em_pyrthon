@@ -9,3 +9,45 @@
 
 # (Opcional) Mantém o .gitignore versionado
 !.gitignore
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+*.log
+log.txt
+
+# Ambiente virtual
+venv/
+.venv/
+env/
+ENV/
+
+# Arquivos de ambiente
+.env
+.env.*
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Distribuição/Build
+build/
+dist/
+*.egg-info/
+
+# Testes e cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
