@@ -34,6 +34,12 @@ class MyOpen:
     def __exit__(self, exc_type, exc_, tb_):
         print('Fechando o arquivo')
         self._arquivo.close()
+
+        # raise exc_type(*exc_.args).with_traceback(tb_)
+        # exc_.add_note('Minha anotação')
+        # raise ConnectionError('Não deu para conectar')
+
+        return True # Tratanto a exceção
  
 with MyOpen('aula28.py', 'w') as arquivo:
     arquivo.write('Linha 1 \n')
